@@ -37,7 +37,6 @@ class _MenuScreenState extends State<MenuScreen> {
         await Navigator.pushReplacementNamed(context, '/profile');
       }
       
-      // Check if the widget is still mounted before calling setState
       if (mounted) {
         setState(() {
           _currentPage = index;
